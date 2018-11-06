@@ -33,7 +33,7 @@ The phylogeny is seen as a container to hold information at the nodes, and the t
 	   		BitSet states;
 	   		int taxon id;
 	   }	 
-``
+```
 at the nodes. 
 	   
  Unlike lists and vectors and so on, the structure of the container (i.e. the underlying tree) is important. We therefore add convertors to go from two different types of phylo: to copy from `phylo<type1>` to `phylo<type2>`. If you are implementing several algorithms one program you can  either define a different phylo type for each algorithm, or put the data from all the algorithms into one class. The advantage of the former is simplicty and memory reduction. The advantage of the latter is that you can reduce the number of timesphylogenies are copied.
