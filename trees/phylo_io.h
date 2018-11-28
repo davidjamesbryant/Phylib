@@ -139,7 +139,8 @@ namespace Phylib {
 			return;
 		for (typename phylo<T>::const_iterator p = tree.header().left(); !p.null(); p=p.right()) {
 			print_newick<T>(os, p, taxa_names, print_lengths,print_meta);
-			os<<endl;
+            if (!p.right().null())
+                os<<endl;
 		}
 	}
 	
