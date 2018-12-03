@@ -2,7 +2,7 @@
 
 Author: David James Bryant david.bryant@otago.ac.nz
 
-WE implement ant STL type container for iterator over and manipulating phylogenetic trees, together with a number of utitility and simulation algorithms. 
+The main object in the library is an STL type container for iterating over and manipulating phylogenetic trees, together with a number of utility and simulation algorithms. 
 
 ## Contents
 
